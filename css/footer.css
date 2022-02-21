@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 100%;
+    /* position: relative; */
+    /* top: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 350px;
+    background-color:rgba(6, 38, 179, 0.596);
+    /* background-image: linear-gradient(blue,white); */
+    clear: both;
+    
+}
+footer p.title{
+    /* padding-left: 20px; */
+    font-family: Montserrat;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+footer p.noidung{
+    font-family:Montserrat;
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+}
+.hopbu{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.hop img{
+    width: 250px;
+}
+
+button{
+    border-radius: 5px;
+    
+    color: rgb(89, 89, 126)e;
+    border: 1px solid white;
+    padding: 3px;
+    outline: none;
+    font-family: Montserrat;
+}
+.email{
+    
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: transparent;
+    color: white;
+}
+.email::placeholder{
+    color: white;
+}
+
+
+.img img{
+    height: 80px;
+    width: 80px;
+}
+.hop{
+    float: left;
+    width: 21.7%;
+    font-size: 25px;
+    /* height: 250px; */
+    padding: 20px;
+    /* border: 1px solid black; */
+    text-align: center;
+}

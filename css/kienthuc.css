@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(159, 255, 255);
+}
+.boxdau{
+    width: 100%;
+    height: 150px;
+    /* background-color: aquamarine; */
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+}
+.boxlogo{
+    width: 10%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 50px;
+    left: 685px;
+}
+.boxlogo img{
+    width: 100%;
+}
+.slogan1{
+    width: 20%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.slogan1 p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.slogan2{
+    width: 35%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+.slogan2 p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color:rgb(3,149,185);
+}
+.box1{
+    width: 100%;
+    height: 410px;
+    margin-bottom: 40px;
+    /* background-color: aqua; */
+}
+.section{
+    width: 24%;
+    float: left;
+    /* background-color: beige; */
+    height: 410px;
+    margin: 0 0.5%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.section img{
+    width: 100%;
+    height: 100%;
+    transition-duration: 1.5s;
+}
+.section img:hover{
+    transform: scale(1.2);
+}
+.box2{
+    width: 100%;
+    height: 100px;
+}
+.box3{
+    width: 100%;
+    height: 750px;
+    /* background-color: aqua; */
+}
+.hoplon{
+    width: 80%;
+    height: 220px;
+    /* background-color: beige; */
+    margin: 15px auto;
+}
+.hopnho{
+    width: 49%;
+    height: 220px;
+    margin: 0 0.5%;
+    /* background-color: blue; */
+    float: left;
+    
+}
+.chude{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    text-align: center;
+    color: rgb(7, 102, 146);
+    font-weight: bold;
+    padding: 20px 0px;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+.chu{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(68, 34, 148);
+    font-family: Montserrat;
+}
+.hoptrai{
+    width: 60%;
+    height: 100%;
+    /* background-color: beige; */
+    float: left;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.hopphai{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+}
+.noidung1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: Montserrat;
+    color: rgb(112, 12, 12);
+    padding: 0px 20px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transition-duration: 1.5s;
+}
+.image:hover{
+    transform: scale(1.2);
+}
+.nut{
+    width: 50%;
+    height: 40px;
+    margin: 0px auto;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+}
+
+.m{
+    width: 21%;
+    height: 100%;
+    margin: 0 1.7%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    color: grey;
+    /* background-color: rgb(3,149,185); */
+    border: 2px solid grey;
+    font-size: 20px;
+    font-family: Montserrat;
+    /* font-weight: bold; */
+}
+
+.m:hover{
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    font-weight: bold;
+}
