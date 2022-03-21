@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/xuhuong.css">
+    <script src="JS/javascript.js"></script>
 </head>
 
 <body>
@@ -46,7 +47,7 @@
         <div class="top10">
             <p class="ttcontrol">TOP 10 CÁC QUỐC GIA</p>
             <a href="topTheGioi.html" target="form">
-                <div class="top" >Số lượt khách quốc tế nhiều nhất thế giới</div>
+                <div class="top">Số lượt khách quốc tế nhiều nhất thế giới</div>
             </a>
             <a href="topChauA.html" target="form">
                 <div class="top">Số lượt khách quốc tế nhiều nhất châu Á</div>
@@ -64,11 +65,11 @@
                 <div class="top">Công dân chi tiêu cho du lịch nhiều nhất thế giới</div>
             </a>
         </div>
-        
-        <button class="len"><a href="#"><img src="images/icon mũi tên.png" alt=""></a></button>
-        
+
+        <button class="len" id="back"><a href="#"><img src="images/icon mũi tên.png" alt=""></a></button>
+
     </div>
-    
+
     <footer>
         <div class="hopbu">
             <div class="hop">
@@ -117,6 +118,10 @@
         </div>
 
     </footer>
+    <script>
+        var backTo = document.getElementById("back");
+        window.onscroll = function () { backToTop() };
+    </script>
 </body>
 
 </html>

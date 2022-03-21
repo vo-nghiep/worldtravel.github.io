@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/trangcon.css">
+    <script src="JS/javascript.js"></script>
 </head>
 
 <body>
@@ -49,7 +50,7 @@
     </div>
     <div class="body">
 
-        <button class="len"><a href="#"><img src="images/icon mũi tên.png" alt=""></a></button>
+        <button class="len" id="back"><a href="#"><img src="images/icon mũi tên.png" alt=""></a></button>
         <article>
             <div class="layout">
 
@@ -167,6 +168,10 @@
         </div>
 
     </footer>
+    <script>
+        var backTo = document.getElementById("back");
+        window.onscroll = function () { backToTop() };
+    </script>
 </body>
 
 </html>
