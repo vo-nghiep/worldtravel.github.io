@@ -5,274 +5,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World travel | Trang chủ</title>
+    <title>ND STORE | TRANG CHỦ</title>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/box1.css">
-    <link rel="stylesheet" href="css/box2.css">
-    <link rel="stylesheet" href="css/box3.css">
-    <link rel="stylesheet" href="css/box4.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img src="images/worldtravellogo.png" alt=""></a>
-        <input class="seach" type="text" placeholder="Search">
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Trang chủ</a></li>
-                <li><a href="">Việt Nam</a>
-                    <ul>
-                        <li><a href="mienbac.html">Miền Bắc</a></li>
-                        <li><a href="mientrung.html">Miền Trung</a></li>
-                        <li><a href="miennam.html">Miền Nam</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Nước ngoài</a>
-                    <ul>
-                        <li><a href="chauA.html">Châu Á</a></li>
-                        <li><a href="chauAu.html">Châu Âu</a></li>
-                        <li><a href="chauUc.html">Châu Úc</a></li>
-                        <li><a href="chauMy.html">Châu Mỹ</a></li>
-                    </ul>
-                </li>
-                <li><a href="kienthuc.html">Kiến thức</a></li>
-                <li><a href="xuhuong.html">Xu hướng</a></li>
-                <li><a href="about.html">Giới thiệu</a></li>
-            </ul>
-        </nav>
+        <a class="search"><img src="images/Search_Icon.png" alt=""></a>
+        <input type="text" class="search1">
+        <a href="index.html"><img src="images/logo25.1.png" alt=""></a>
+        <p class="name">✌️ND STORE📱</p>
     </header>
-
-    <div class="box1">
-        <div class="slideshow-container">
-
-            <div class="mySlides fade">
-                <a href="mientrung.html">
-                    <img src="images/CauVang1.jpg" style="width:100%">
-                    <div class="text">Cầu Vàng</div>
-                </a>
-            </div>
-
-            <div class="mySlides fade">
-                <a href="#">
-                    <img src="images/burj-al-arab.jpg" style="width:100%">
-                    <div class="text">Khách sạn Burj AI Arab</div>
-                </a>
-            </div>
-
-            <div class="mySlides fade">
-                <a href="chauA.html">
-                    <img src="images/phuSi.jpg" style="width:100%">
-                    <div class="text">Núi Phú Sĩ</div>
-                </a>
-            </div>
-
-            <div class="mySlides fade">
-                <a href="chauAu.html">
-                    <img src="images/Geneva summer1.jpg" style="width:100%">
-                    <div class="text">Geneva</div>
-                </a>
-            </div>
-
-            <div class="mySlides fade">
-                <a href="chauMy.html">
-                    <img src="images/daophucsinh1.png" style="width:100%">
-                    <div class="text">Đảo Phục Sinh</div>
-                </a>
+    <div class="nav">
+        <a href="index.html" class="home">TRANG CHỦ</a>
+        <div class="dropdown">
+            <button class="muc">SẢN PHẨM</button>
+            <div class="drop">
+                <div class="hang">
+                    <div class="cot" id="cot1">
+                        <h3>ĐIỆN THOẠI</h3>
+                        <a href="sanpham1.html">Iphone</a>
+                        <a href="sanpham2.html">Samsung</a>
+                        <a href="sanpham3.html">Sony</a>
+                        <a href="">Nokia</a>
+                        <a href="">Oppo</a>
+                    </div>
+                    <div class="cot">
+                        <h3>PHỤ KIỆN</h3>
+                        <a href="">Tai nghe</a>
+                        <a href="">Ốp lưng</a>
+                        <a href="">Sạc dự phòng</a>
+                        <a href="">Cáp sạc</a>
+                        <a href="">Phụ kiện khác</a>
+                    </div>
+                    <div class="cot">
+                        <h3>TABLET</h3>
+                        <a href="">Ipad</a>
+                        <a href="">Samsung</a>
+                        <a href="">Huawie</a>
+                        <a href="">Xiaomi</a>
+                        <a href="">Nokia</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+        <a href="tintuc.html">TIN TỨC</a>
+        <a href="muahang.html">MUA HÀNG</a>
+        <a href="lienhe.html">LIÊN HỆ</a>
+    </div>
+    <div class="banner">
+        <div class="mySlides">
+            <a href="sanpham1.html" title="Thông tin chi tiết"><img src="images/iphone13 banner.jpg"></a>
         </div>
-
-        <script>
-            var slideIndex = 0;
-            showSlides();
-
-            function showSlides() {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                slideIndex++;
-                if (slideIndex > slides.length) { slideIndex = 1 }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-                setTimeout(showSlides, 3000); // Change image every 3 seconds
-            }
-        </script>
+        <div class="mySlides">
+            <a href="sanpham2.html" title="Thông tin chi tiết"><img src="images/samsung s221 banner.png"></a>
+        </div>
+        <div class="mySlides">
+            <a href="sanpham3.html" title="Thông tin chi tiết"><img src="images/sony-xperia-1.jpg"></a>
+        </div>
+        <a class="next" onclick="changeSlides(1)" title="Next">&#10095;</a>
+        <a class="previous" onclick="changeSlides(-1)" title="Previous">&#10094;</a>
+        <a class="stop" onclick="stop()" title="Stop">&#9724;</a>
+        <a class="play" onclick="play()" title="Play">&#9654;</a>
     </div>
 
-    <div class="box2">
-        <p>KHÁM PHÁ</p>
-        <p class="content">Chọn cho mình một châu lục và cùng chúng tôi khám phá những điểm đến thú vị và hấp dẫn của
-            các quốc gia !</p>
-        <section class="o1">
-            <a href="chauA.html">
-                <img src="images/chauA-VN.jpg" alt="">
-                <div class="text">Châu Á</div>
+    <p class="a">SẢN PHẨM NỔI BẬT</p>
+    <div class="sanpham">
+        <div class="row">
+            <a href="" class="sp">
+                <img src="images/iphone-12-pro-max1.png" alt="">
+                <b class="ten">IPHONE 12 PRO MAX - 256GB</b> <br>
+                <i class="gia">30.690.000 VNĐ</i>
+                <button class="buy">Mua</button>
             </a>
-        </section>
-        <section class="o2">
-            <a href="chauAu.html">
-                <img src="images/Châu âu.jpg" alt="">
-                <div class="text">Châu Âu</div>
+            <a href="sanpham3.html" class="sp">
+                <img src="images/sonyxperia1.png" alt="">
+                <b class="ten">SONY XPERIA X</b> <br>
+                <i class="gia">21.990.000 VNĐ</i>
+                <button class="buy">Mua</button>
             </a>
-        </section>
-        <section class="o3">
-            <a href="chauUc.html">
-                <img src="images/dia-diem-du-lich-uc.jpg" alt="">
-                <div class="text">Châu Úc</div>
+            <a href="" class="sp">
+                <img src="images/Nokia 7.2.png" alt="">
+                <b class="ten">NOKIA 7.2</b> <br>
+                <i class="gia">6.190.000 VNĐ</i>
+                <button class="buy" onclick="buy()">Mua</button>
             </a>
-        </section>
-        <section class="o4">
-            <a href="chauMy.html">
-                <img src="images/Châu Mỹ.jpg" alt="">
-                <div class="text">Châu Mỹ</div>
-            </a>
-        </section>
-    </div>
-
-    <div class="box3">
-        <p class="title">TRAVLE NEWS</p>
-        <p class="content">Cập nhật những thông tin và xu hướng du lịch mới nhất hiện nay !<br>Tham gia vào các trang web,
-            âm thanh và hương vị mới. Những trải nghiệm thực sự đáng nhớ.</p>
-
-        <div class="mm">
-            <a href="">
-                <div class="m">Thiên nhiên</div>
-            </a>
-            <a href="">
-                <div class="m">Ẩm thực</div>
-            </a>
-            <a href="">
-                <div class="m">Văn hóa</div>
-            </a>
-            <a href="">
-                <div class="m">Giải trí</div>
+            <a href="" class="sp">
+                <img src="images/Google-Pixel-6-1-removebg.png" alt="">
+                <b class="ten">GOOGLE PIXEL 6</b> <br>
+                <i class="gia">11.990.000 VNĐ</i>
+                <button class="buy">Mua</button>
             </a>
         </div>
-
-        <section class="n1">
-            <a href="https://vnexpress.net/mot-ngay-dao-choi-mien-que-co-tich-nuoc-anh-4413248.html" target="page">
-                <img src="images/tintuc_n1.jpg" alt="">
-                <p class="text">MỘT NGÀY DẠO CHƠI MIỀN QUÊ CỔ TÍCH NƯỚC ANH</p>
+        <div class="row">
+            <a href="sanpham2.html" class="sp">
+                <img src="images/samsung s22.png" alt="">
+                <b class="ten">SAMSUNG S22 ULTRA 512GB</b> <br>
+                <i class="gia">36.990.000 VNĐ</i>
+                <button class="buy">Mua</button>
             </a>
-        </section>
-        <section class="n2">
-            <a href="https://vnexpress.net/su-khac-biet-khi-pizza-ket-hop-voi-salami-4414453.html" target="page">
-                <img src="images/tintuc_n2.png" alt="">
-                <p class="text">SỰ KHÁC BIỆT MỚI KHI PIZZA KẾT HỢP VỚI SALAMI</p>
+            <a href="" class="sp">
+                <img src="images/samsung a53.png" alt="">
+                <b class="ten">SAMSUNG A53 5G 128GB</b> <br>
+                <i class="gia">9.990.000 VNĐ</i>
+                <button class="buy">Mua</button>
             </a>
-        </section>
-        <section class="n3">
-            <a href="https://vnexpress.net/nha-hang-phuc-vu-khach-nhanh-nhat-the-gioi-4416009.html" target="page">
-                <img src="images/tintuc_n3.jpg" alt="">
-                <p class="text">NHÀ HÀNG PHỤC VỤ KHÁCH NHANH NHẤT THẾ GIỚI</p>
+            <a href="sanpham1.html" class="sp">
+                <img src="images/ipphone 13 pro max.png" alt="">
+                <b class="ten">IPHONE 13 PRO MAX 128GB</b> <br>
+                <i class="gia">33.990.000 VNĐ</i>
+                <button class="buy">Mua</button>
             </a>
-        </section>
-        <section class="n4">
-            <a href="https://vnexpress.net/cuc-quang-huyen-ao-qua-lang-kinh-cua-khach-viet-4412559.html" target="page">
-                <img src="images/tintuc_n4.png" alt="">
-                <p class="text">CỰC QUANG HUYỀN ẢO QUA LĂNG KÍNH CỦA KHÁCH VIỆT</p>
+            <a href="" class="sp">
+                <img src="images/Reno-6-pro-5G-rz-1_ccexpress.png" alt="">
+                <b class="ten">OPPO RENO 6</b> <br>
+                <i class="gia">12.990.000 VNĐ</i>
+                <button class="buy">Mua</button>
             </a>
-        </section>
-
-    </div>
-
-    <div class="box4">
-        <p>XEM TOÀN CẢNH</p>
-        <p class="content">Tham gia vào chuyến đi một vòng các thành phố và địa danh nổi tiếng
-            ở Việt Nam bằng chế độ xem 360 của chúng tôi.<br>Bạn sẽ có những trải nghiệm thú vị và
-            chân thực hơn trước khi quyết định xách balo lên và đi !
-        </p>
-        <div>
-            <section class="v1">
-                <a href="https://vietnam.travel/sites/default/files/360Tour/VietNam/index.htm" target="page"><img
-                        src="images/VietNam360.jpg" alt=""></a>
-            </section>
-            <section class="v2">
-                <a href="https://vietnam.travel/sites/default/files/360Tour/HaLong/index.htm" target="page"><img
-                        src="/images/HaLong.jpg" alt=""></a>
-            </section>
-            <section class="v3">
-                <a href="https://vietnam.travel/sites/default/files/360Tour/DaNang/index.htm" target="page"><img
-                        src="images/DaNang.jpg" alt=""></a>
-            </section>
-            <section class="v4">
-                <a href="https://vietnam.travel/sites/default/files/360Tour/HoiAn/index.htm" target="page"><img
-                        src="images/HoiAn.jpg" alt=""></a>
-            </section>
-            <section class="v5">
-                <a href="https://vietnam.travel/sites/default/files/360Tour/NhaTrang2021/index.htm" target="page"><img
-                        src="images/Nhatrang.jpg" alt=""></a>
-            </section>
-            <section class="v6">
-                <a href="https://vietnam.travel/sites/default/files/360Tour/MySon/index.htm" target="page"><img
-                        src="images/ditichMySon.jpg" alt=""></a>
-            </section>
         </div>
-
     </div>
     <footer>
-        <div class="hopbu">
-            <div class="hop">
-                <p class="title">
-                    THANK YOU!
-                    <br>
-                    <br>
-                </p>
-
-                <p class="noidung">Đây là trang web du lịch toàn cầu. Trang web còn đang trong quá trình hoàn thiện</p>
-                <img src="images/worldtravellogo.png" alt="">
-            </div>
-            <div class="hop">
-                <p class="title">
-                    ĐĂNG KÍ NHẬN TIN <br> <br>
-                </p>
-                <p class="noidung">
-                    Chúng tôi sẽ gửi cho bạn các thông tin về các địa điểm du lịch hấp dẫn nhất.
-                </p><br>
-                <input type="text" class="email" placeholder="Email"> <br>
-                <button type="submit">Sign up</button>
-            </div>
-            <div class="hop">
-                <p class="title">
-                    THÔNG TIN <br> <br>
-                </p>
-                <p class="noidung"> @ Chính sách bảo mật <br>
-                    @ Điều khoản dịch vụ
-                </p>
-            </div>
-            <div class="hop">
-                <p class="title">
-                    LIÊN HỆ <br> <br>
-                </p>
-                <p class="noidung">
-                    Mọi thắc mắc và đóng góp xin vui lòng gửi về hòm thư: <br>
-                    Email 1: nghiepdvps20385@fpt.edu.vn<br>
-                    Email 2: thanhdqps20386@fpt.edu.vn<br>
-                </p>
-                <div class="img">
-                    <img src="images/logo25.1.png" alt="">
-                    <img src="images/Main Logo.png" alt="">
-                </div>
-
-            </div>
-        </div>
-
+        <p class="ket">
+            CỬA HÀNG SMARTPHONE ND STORE <br>
+            Tầng 5 - ND Tower - 55 Lê Thánh Tông.P.Bến Nghé.Quận 1.Tp.HCM <br>
+            Email: nghiepdvps20385@fpt.edu.vn
+        </p>
     </footer>
+    <script>
+        showSlidesAuto();
+    </script>
 </body>
 
 </html>
